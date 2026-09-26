@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# Participant-level data are not distributed with the public code.
+data/*
+!data/README.md
+
+# Generated outputs are reproducible and are not versioned.
+results/*
+!results/.gitkeep
